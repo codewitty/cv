@@ -1,6 +1,8 @@
 
 div{
   background-color: #D7F7F5;
+  border: 10px;
+  padding: 20px;
 }
 
 .middle-container {
