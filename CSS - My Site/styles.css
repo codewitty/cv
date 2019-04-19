@@ -3,7 +3,8 @@ div{
   width: 200px;
   height: 200px;
   background-color: #D7F7F5;
-  border: 10px;
+  border: solid black;
+  border-radius: 10px;
   padding: 20px;
 }
 
@@ -13,10 +14,15 @@ div{
   background-color: red;
   width: 200px;
   height: 200px;
+  border: solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 0 0 33%;
 }
 
 .bottom-container {
   width: 200px;
   height: 200px;
-  background-color: blue;v
+  background-color: blue;
+  border: 10px;
 }
