@@ -15,9 +15,9 @@ div{
   width: 200px;
   height: 200px;
   border: solid black;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 20px;
-  margin: 0 0 0 33%;
+  margin: 0 0 0 225px;
 }
 
 .bottom-container {
