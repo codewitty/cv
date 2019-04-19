@@ -14,7 +14,7 @@ div{
   width: 200px;
   height: 200px;
   border: 20px solid black;
-  margin: 0 0 0 255px;
+  margin: 0 0 0 260px;
 }
 
 .bottom-container {
@@ -22,5 +22,5 @@ div{
   height: 200px;
   background-color: yellow;
   border: 10px solid;
-  margin: 0 0 0 530px;
+  margin: 0 0 0 540px;
 }
