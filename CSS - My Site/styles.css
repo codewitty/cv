@@ -26,3 +26,7 @@ h1 {
 .pro{
   text-decoration: underline;
 }
+
+.bottom-cloud{
+  position: absolute;
+}
