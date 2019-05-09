@@ -1,12 +1,21 @@
 body {
   margin: 0;
   text-align: center;
+  font-family: 'Amiri', serif;
 }
 
 h1 {
   margin-top:0;
+  font-family: 'Rochester', cursive;
 }
 
+h2{
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+h3{
+  font-family: 'Noto Sans TC', sans-serif;
+}
 .top-container {
   background-color: #D7F7F5;
   position: relative;
