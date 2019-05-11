@@ -30,7 +30,7 @@ h3{
 }
 .profile_pic{
 width: 10%;
-height: 10%;
+height: auto;
  border-radius: 100%;
 }
 .bottom-container {
