@@ -29,7 +29,7 @@ h3{
 
 }
 .profile_pic{
-width: 10%;
+width: auto;
 height: auto;
  border-radius: 100%;
 }
