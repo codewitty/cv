@@ -65,10 +65,14 @@ height: auto;
   right: 300px;
 }
 
-.first-skill pic{
+.first-skill-pic{
   width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
 .second-skill-pic {
   width: 25%;
+  float: right;
+  margin-left: auto auto 50px 30px;
 }
