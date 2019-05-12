@@ -2,9 +2,16 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Amiri', serif;
+  color: #40514E;
 }
 
-a {text-decoration: none; }
+a {
+  text-decoration: none;
+}
+
+p{
+  line-height: 2;
+}
 
 hr {
   background-color: none;
@@ -13,6 +20,7 @@ hr {
   border-width: 10px;
   height: auto;
   width: 4%;
+  margin: 100px auto;
 }
 
 h1 {
@@ -22,26 +30,28 @@ h1 {
   color: #66BFBF
 }
 
-h2{
+h2 {
   font-family: 'Noto Sans TC', sans-serif;
   font-size: 2.5rem;
-  font-weight: normal;
+  font-weight: 600;
   color: #0c084c;
-  }
+  padding-bottom: 10px;
+}
 
-h3{
+h3 {
   font-family: 'Noto Sans TC', sans-serif;
   font-size: 1.8rem;
-  font-weight: normal;
+  font-weight: 600;
   color: #247e6c
 }
 
-.skill-row{
+.skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
 }
+
 .top-container {
   /*background-color: #D7F7F5;*/
   background-color: #eaf5ff;
@@ -51,74 +61,86 @@ h3{
 
 .middle-container {
   background-color: #a9c6de;
-  padding-bottom: 30px;
-
+  font-size: 1.5rem;
+  padding: 100px 0;
 }
 
-.btn{
-  border-radius: 10px; /* Curve of border corners */
-
-text-transform: uppercase; /* Make letters uppercase */
-font-size: 1.8rem;
-
-color: white; /* Text color */
-
-background: #0099cc; /* For browsers that do not support gradients */
-margin-bottom: 50px;
-
-/*background: -webkit-linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef); /* For Safari 5.1 to 6.0
-
-background: -o-linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef); /* For Opera 11.1 to 12.0
-
-background: -moz-linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef); /* For Firefox 3.6 to 15
-
-background: linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef); /* Standard syntax */
-
+.intro{
+  width: 40%;
+  margin: auto;
 }
 
-.links{
+.butn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.links {
   word-spacing: 50px;
 }
-.profile_pic{
-width: 500px;
-height: 500px;
- border-radius: 100%;
-}
-.bottom-container {
 
+.profile_pic {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+}
+
+.contact-me{
+  font-size: 1.5rem;
+}
+
+.bottom-container {
   background-color: #247e6c;
   padding-top: 50px;
   padding-bottom: 50px;
   font-size: 1.0rem;
   color: #EAF6F6;
-
-
 }
 
-.footer-link{
+.footer-link {
   font-size: 1.5rem;
   color: #e4c666;
-
-
 }
 
-.pro{
+.pro {
   text-decoration: underline;
 }
 
-.bottom-cloud{
+.bottom-cloud {
   position: absolute;
   left: 300px;
   bottom: 300px;
 }
 
-.top-cloud{
+.top-cloud {
   position: absolute;
   top: 50px;
   right: 300px;
 }
 
-.first-skill-pic{
+.first-skill-pic {
   width: 25%;
   float: left;
   margin-right: 30px;
