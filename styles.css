@@ -31,6 +31,9 @@ h2{
 
 h3{
   font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #247e6c
 }
 
 .skill-row{
@@ -40,14 +43,15 @@ h3{
   line-height: 2;
 }
 .top-container {
-  //background-color: #D7F7F5;
-  background-color: #b7fbff;
+  /*background-color: #D7F7F5;*/
+  background-color: #eaf5ff;
   position: relative;
   padding-top: 100px;
 }
 
 .middle-container {
-  background-color: ##40514E;
+  background-color: #a9c6de;
+  padding-bottom: 30px;
 
 }
 
@@ -71,24 +75,30 @@ background: -moz-linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b
 background: linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef); /* Standard syntax */
 
 }
+
+.links{
+  word-spacing: 50px;
+}
 .profile_pic{
 width: auto;
 height: auto;
  border-radius: 100%;
 }
 .bottom-container {
-margin-top: 50px;
-  background-color: #66BFBF;
+
+  background-color: #247e6c;
   padding-top: 50px;
   padding-bottom: 50px;
-  font-size: 1.5rem;
-  color: #11999E;
+  font-size: 1.0rem;
+  color: #EAF6F6;
+
 
 }
 
 .footer-link{
   font-size: 1.5rem;
-  color: #11999E;
+  color: #e4c666;
+
 
 }
 
