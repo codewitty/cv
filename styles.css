@@ -26,7 +26,7 @@ h2{
   font-family: 'Noto Sans TC', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
-  color: #66BFBF
+  color: #0c084c;
   }
 
 h3{
@@ -80,8 +80,8 @@ background: linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef
   word-spacing: 50px;
 }
 .profile_pic{
-width: auto;
-height: auto;
+width: 500px;
+height: 500px;
  border-radius: 100%;
 }
 .bottom-container {
