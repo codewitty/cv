@@ -120,10 +120,13 @@ h3 {
   background-color: #247e6c;
   padding-top: 50px;
   padding-bottom: 50px;
-  font-size: 1.0rem;
-  color: #EAF6F6;
 }
 
+.copyright{
+  font-size: 0.75rem;
+  color: #EAF6F6;
+  padding: 40px 0;
+}
 
 .pro {
   text-decoration: underline;
