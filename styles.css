@@ -4,6 +4,8 @@ body {
   font-family: 'Amiri', serif;
 }
 
+a {text-decoration: none; }
+
 hr {
   background-color: none;
   border-style: dotted none none none;
@@ -48,13 +50,45 @@ h3{
   background-color: ##40514E;
 
 }
+
+.btn{
+  border-radius: 10px; /* Curve of border corners */
+
+text-transform: uppercase; /* Make letters uppercase */
+font-size: 1.8rem;
+
+color: white; /* Text color */
+
+background: #0099cc; /* For browsers that do not support gradients */
+margin-bottom: 50px;
+
+/*background: -webkit-linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef); /* For Safari 5.1 to 6.0
+
+background: -o-linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef); /* For Opera 11.1 to 12.0
+
+background: -moz-linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef); /* For Firefox 3.6 to 15
+
+background: linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef); /* Standard syntax */
+
+}
 .profile_pic{
 width: auto;
 height: auto;
  border-radius: 100%;
 }
 .bottom-container {
-  background-color: #ffe0a3;
+margin-top: 50px;
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 1.5rem;
+  color: #11999E;
+
+}
+
+.footer-link{
+  font-size: 1.5rem;
+  color: #11999E;
 
 }
 
