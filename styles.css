@@ -7,6 +7,11 @@ body {
 
 a {
   text-decoration: none;
+  color: #27F68E;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+a:hover{
+  color: #27F6E6;
 }
 
 p{
@@ -119,10 +124,6 @@ h3 {
   color: #EAF6F6;
 }
 
-.footer-link {
-  font-size: 1.5rem;
-  color: #e4c666;
-}
 
 .pro {
   text-decoration: underline;
