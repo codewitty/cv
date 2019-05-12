@@ -21,6 +21,13 @@ h2{
 h3{
   font-family: 'Noto Sans TC', sans-serif;
 }
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
 .top-container {
   //background-color: #D7F7F5;
   background-color: #b7fbff;
@@ -56,4 +63,12 @@ height: auto;
   position: absolute;
   top: 50px;
   right: 300px;
+}
+
+.first-skill pic{
+  width: 25%;
+}
+
+.second-skill-pic {
+  width: 25%;
 }
