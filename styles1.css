@@ -37,6 +37,14 @@ h3 {
   color: #247e6c
 }
 
+.name {
+  margin: auto;
+}
+
+.message{
+  margin-right: 500px;
+}
+
 .top-container {
   /*background-color: #D7F7F5;*/
   background-color: #eaf5ff;
