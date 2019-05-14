@@ -16,6 +16,7 @@ a:hover{
 
 p{
   line-height: 2;
+  margin: 0px auto;
 }
 
 hr {
@@ -48,11 +49,13 @@ h3 {
   font-size: 1.8rem;
   font-weight: 600;
   color: #247e6c;
-  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 0px;
 }
 
 h4{
   text-decoration: underline;
+  margin: 0px auto;
 }
 .skill-row {
   width: 60%;
