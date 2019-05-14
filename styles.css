@@ -51,6 +51,9 @@ h3 {
   margin: auto;
 }
 
+h4{
+  text-decoration: underline;
+}
 .skill-row {
   width: 60%;
   margin: 100px auto 100px auto;
