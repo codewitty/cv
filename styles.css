@@ -47,7 +47,8 @@ h3 {
   font-family: 'Noto Sans TC', sans-serif;
   font-size: 1.8rem;
   font-weight: 600;
-  color: #247e6c
+  color: #247e6c;
+  margin: auto;
 }
 
 .skill-row {
