@@ -1,0 +1,3 @@
+[submodule "tindog"]
+	path = tindog
+	url = https://github.com/londonappbrewery/TinDog-Start.git
