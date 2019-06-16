@@ -96,3 +96,9 @@ p{
   text-align: center;
   background-color: green;
 }
+
+.testimonialimg{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
