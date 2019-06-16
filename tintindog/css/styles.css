@@ -54,3 +54,9 @@ h1 {
   width: 60%;
   transform: rotate(25deg);
 }
+
+/* Features */
+
+#features{
+  padding: 1.5rem 1rem;
+}
