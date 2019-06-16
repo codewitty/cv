@@ -19,6 +19,12 @@ h1 {
   line-height: 1.5;
 }
 
+h2{
+  font-family: 'Roboto-bold';
+  font-size: 3.0rem;
+  line-height: 1.5;
+
+}
 h3{
   font-family: 'Montserrat-bold';
 }
