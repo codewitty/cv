@@ -73,3 +73,12 @@ p{
   text-align: center;
   padding: 5%;
 }
+
+.icon{
+  color: green;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
