@@ -85,9 +85,13 @@ p {
 
 /* Testimonial Section */
 #testimonials {
-  padding: 7% 15%;
+
   text-align: center;
   background-color: green;
+}
+
+.carousel-item{
+  padding: 7% 15%;
 }
 
 .testimonialimg {
