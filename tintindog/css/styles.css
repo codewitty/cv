@@ -132,3 +132,15 @@ p {
   text-align: center;
   padding: 15px 15px 15px 15px;
 }
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
