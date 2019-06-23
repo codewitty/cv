@@ -151,4 +151,9 @@ p {
 #footer{
   text-align: center;
   padding: 5% 5%;
+  background-color: #fff;
+}
+
+.copyright{
+  padding: 2% 0;
 }
