@@ -130,7 +130,18 @@ p {
 #cta{
   background-color: green;
   text-align: center;
-  padding: 15px 15px 15px 15px;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+.cta-heading{
+  font-family: 'Roboto-bold';
+  font-size: 3.0rem;
+  line-height: 1.5;
+}
+
+.social-media{
+  margin: 20px 10px;
 }
 
 /* Media Query */
@@ -154,6 +165,9 @@ p {
   background-color: #fff;
 }
 
+.fb{
+
+}
 .copyright{
   padding: 2% 0;
 }
