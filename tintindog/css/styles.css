@@ -7,15 +7,21 @@ body {
   color: #fff;
 }
 
+
+.big-header{
+  font-family: 'Montserrat-Bold';
+  font-size: 4.0rem;
+  line-height: 1.5;
+}
+
 .container-fluid {
   font-family: 'Roboto', sans-serif;
   padding: 3% 15% 7%;
 }
 
-h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-bold';
+  font-weight: bold;
 }
 
 h2 {
