@@ -11,6 +11,7 @@ body {
 .big-header{
   font-family: 'Montserrat-Bold';
   font-size: 4.0rem;
+  font-weight: bold;
   line-height: 1.5;
 }
 
@@ -20,19 +21,14 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat-bold';
-  font-weight: bold;
+  font-family: 'Montserrat-Bold';
 }
 
 h2 {
-  font-family: 'Roboto-bold';
   font-size: 3.0rem;
   line-height: 1.5;
 }
 
-h3 {
-  font-family: 'Montserrat-bold';
-}
 
 p {
   color: #8f8f8f;
