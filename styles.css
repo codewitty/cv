@@ -68,15 +68,33 @@ h4 {
 
 .top-container {
   /*background-color: #D7F7F5;*/
-  background-color: #eaf5ff;
+  background-color: #e0fcff;
   position: relative;
   padding-top: 100px;
 }
 
 .middle-container {
-  background-color: #a9c6de;
+  background-color: #90f2ff;
   font-size: 1.5rem;
   padding: 100px 0;
+}
+
+.skills {
+  background-color: #e0fcff;
+  padding: 100px 0;
+}
+
+.contact-me {
+  font-size: 1.5rem;
+  background-color: #90f2ff;
+  font-size: 1.5rem;
+  padding: 100px 0;
+}
+
+.bottom-container {
+  background-color: #7098da;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .intro {
@@ -121,15 +139,7 @@ h4 {
   border-radius: 100%;
 }
 
-.contact-me {
-  font-size: 1.5rem;
-}
 
-.bottom-container {
-  background-color: #247e6c;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
 
 .copyright {
   font-size: 0.75rem;
