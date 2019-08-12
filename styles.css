@@ -70,7 +70,7 @@ h4 {
   /*background-color: #D7F7F5;*/
   background-color: #e0fcff;
   position: relative;
-  padding-top: 100px;
+  padding: 100px 0;
 }
 
 .middle-container {
@@ -81,7 +81,8 @@ h4 {
 
 .skills {
   background-color: #e0fcff;
-  padding: 100px 0;
+  font-size: 1.5rem;
+  padding: 50px 100px;
 }
 
 .contact-me {
@@ -139,7 +140,10 @@ h4 {
   border-radius: 100%;
 }
 
-
+.symbol {
+  width: 150px;
+  size: 100px;
+}
 
 .copyright {
   font-size: 0.75rem;
