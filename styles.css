@@ -8,14 +8,14 @@ body {
 
 a {
   text-decoration: none;
-  color: #c05c7e;
+  /*color: #c05c7e;*/
+  color: #000000;
   font-family: 'Noto Sans TC', sans-serif;
 }
 
 a:hover {
-  /*color: #800000;*/
+  color: #800000;
   /*color: #0c084c;*/
-  color: #000000;
 }
 
 p {
