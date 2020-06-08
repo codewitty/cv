@@ -25,7 +25,7 @@ p {
 hr {
   background-color: none;
   border-style: dotted none none none;
-  border-color: #000000;
+  border-color: #FFFFFF;
   border-width: 5px;
   height: none;
   width: 4%;
@@ -70,7 +70,7 @@ h4 {
 
 .top-container {
   /*background-color: #e0fcff;*/
-  background-color: #000000;
+  background-color: #FFFFFF;
   position: relative;
   padding: 100px 0;
   font-size: 2.5rem;
@@ -84,7 +84,7 @@ h4 {
 }
 
 .skills {
-  background-color: #000000;
+  background-color: #FFFFFF;
   /*background-color: #f3826f;*/
   padding: 100px 0;
   font-size: 1.5rem;
