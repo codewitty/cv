@@ -68,8 +68,8 @@ h4 {
 }
 
 .top-container {
-  background-color: #e0fcff;
-  /*background-color: #2d3561;*/
+  /*background-color: #e0fcff;*/
+  background-color: #000000;
   position: relative;
   padding: 100px 0;
   font-size: 2.5rem;
@@ -83,7 +83,7 @@ h4 {
 }
 
 .skills {
-  background-color: #e0fcff;
+  background-color: #000000;
   /*background-color: #f3826f;*/
   padding: 100px 0;
   font-size: 1.5rem;
