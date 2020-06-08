@@ -68,38 +68,38 @@ h4 {
 }
 
 .top-container {
-  /*background-color: #e0fcff;*/
-  background-color: #2d3561;
+  background-color: #e0fcff;
+  /*background-color: #2d3561;*/
   position: relative;
   padding: 100px 0;
   font-size: 2.5rem;
 }
 
 .middle-container {
-/*background-color: #90f2ff;*/
-  background-color: #c05c7e;
+  background-color: #90f2ff;
+  /*background-color: #c05c7e;*/
   font-size: 1.5rem;
   padding: 100px 0;
 }
 
 .skills {
-  /*background-color: #e0fcff;*/
-  background-color: #f3826f;
+  background-color: #e0fcff;
+  /*background-color: #f3826f;*/
   padding: 100px 0;
   font-size: 1.5rem;
   line-height: 1.5;
 }
 
 .contact-me {
-  /*background-color: #90f2ff;*/
-  background-color: #ffb961;
+  background-color: #90f2ff;
+  /*background-color: #ffb961;*/
   font-size: 1.5rem;
   padding: 100px 0;
 }
 
 .bottom-container {
-  /*background-color: #7098da;*/
-  background-color: #2d3561;
+  background-color: #7098da;
+  /*background-color: #2d3561;*/
   padding-top: 50px;
   padding-bottom: 50px;
 }
