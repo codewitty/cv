@@ -1,9 +1,15 @@
 const express = require("express");
-
+const bodyParser = require("body-parser");
 const app = express();
 
+app.use(bodyParser.urlencoded({extended:true}));
+
 app.get("/", function(req, res){
-    res.send("Hello World");
+    res.sendFile(__dirname + "/index.html")
+});
+
+app.post("/", function(req, res){
+    res.send("Thanks for sending that");
 });
 
 app.get("/about", function(req, res){
