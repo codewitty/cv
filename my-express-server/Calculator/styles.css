@@ -2,6 +2,11 @@ h1{
    font-family:Arial,sans-serif;
     }
 
+h1{
+   font-family:Arial,sans-serif;
+   color: blue;
+    }
+
 table {
     border: 1px solid black;
     border-collapse: collapse;
@@ -11,6 +16,7 @@ td, th {
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
+    padding: 8px;
 }
 
 div {
