@@ -4,8 +4,21 @@ const https = require("https");
 const app = express();
 
 app.get("/", function(req, res){
+    res.sendFile(__dirname + "/index.html");
 
-    const url = "https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=9e45703d4ebce98a50d6970fda54c452"
+
+})
+
+app.post("/", function(req, res){
+    console.log("Posted");
+})
+
+
+    /*
+    const query = "Santa Clara"
+    const units = "metric"
+    const apiKey = "9e45703d4ebce98a50d6970fda54c452"
+    const url = "https://api.openweathermap.org/data/2.5/weather?q=" + query + "&units=" + units + "&appid=" + apiKey 
     https.get(url, function(response){
         console.log(response.statusCode);
 
@@ -18,14 +31,12 @@ app.get("/", function(req, res){
         console.log(weatherData);
         console.log(temp);
         console.log(desc);
-        res.write("<h1>The temp in San Jose is " + temp + " degrees Celcius. \nAnd it looks like " + desc + ".</h1>");
+        res.write("<h1>The temp in " + query + " is " + temp + " degrees Celcius. \nAnd it looks like " + desc + ".</h1>");
         res.write("<img src=" + imageURL + ">");
         res.send();
         })
     })
-
-})
-
+    */
 
 app.listen(3000, function(){
     console.log("Server started on port 3000");
