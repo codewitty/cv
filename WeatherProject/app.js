@@ -13,10 +13,14 @@ app.get("/", function(req, res){
         const weatherData = JSON.parse(data)
         const temp = weatherData.main.temp
         const desc = weatherData.weather[0].description
+        const icon = weatherData.weather[0].icon
+        const imageURL = "http://openweathermap.org/img/wn/" + icon + "@2x.png"
         console.log(weatherData);
         console.log(temp);
         console.log(desc);
-        res.send("h1-The temp in San Jose is " + temp + " degrees Celcius. And it looks like " + desc + ".");
+        res.write("<h1>The temp in San Jose is " + temp + " degrees Celcius. \nAnd it looks like " + desc + ".</h1>");
+        res.write("<img src=" + imageURL + ">");
+        res.send();
         })
     })
 
