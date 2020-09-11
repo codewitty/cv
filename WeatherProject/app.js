@@ -16,11 +16,10 @@ app.get("/", function(req, res){
         console.log(weatherData);
         console.log(temp);
         console.log(desc);
-    })
+        res.send("h1-The temp in San Jose is " + temp + " degrees Celcius. And it looks like " + desc + ".");
+        })
     })
 
-
-    res.send("Server works. Hallelujah!!")
 })
 
 
