@@ -49,24 +49,6 @@ app.post("/", function(req, res){
     })
 });
 
-/*
-const client = require("mailchimp-marketing");
-
-client.setConfig({
-  apiKey: "YOUR_API_KEY",
-  server: "YOUR_SERVER_PREFIX",
-});
-
-const run = async () => {
-  const response = await client.lists.batchListMembers("list_id", {
-    members: [{}],
-  });
-  console.log(response);
-};
-
-run();
-*/
-
 app.listen(3000, function(){
     console.log("Server started on port 3000");
 });
