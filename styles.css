@@ -8,31 +8,31 @@
 
 body {
   font-family: 'Amiri', serif;
-  color: #40514E;
+  color: #333;
 }
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: #0070c9;
   font-family: 'Noto Sans TC', sans-serif;
 }
 
 a:hover {
-  color: #800000;
+  color: #004d82;
 }
 
 h1 {
   margin: 50px auto 0 auto;
   font-family: 'Rochester', cursive;
   font-size: 4rem;
-  color: #66BFBF;
+  color: #000;
 }
 
 h2 {
   font-family: 'Noto Sans TC', sans-serif;
   font-size: 2rem;
   font-weight: 600;
-  color: #0c084c;
+  color: #000;
   padding-bottom: 10px;
 }
 
@@ -40,7 +40,7 @@ h3 {
   font-family: 'Noto Sans TC', sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
-  color: #247e6c;
+  color: #000;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -50,15 +50,19 @@ p {
   margin-bottom: 20px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 hr {
   border: none;
   height: 2px;
-  background-color: #EAF6F6;
+  background-color: #ccc;
   margin-top: 50px;
 }
 
 header {
-  background-color: #F7F4E9;
+  background-color: #f5f5f7;
   padding: 50px 0;
 }
 
@@ -101,7 +105,7 @@ header {
 }
 
 main {
-  background-color: #FFFFFF;
+  background-color: #fff;
   padding: 50px 0;
 }
 
@@ -123,11 +127,11 @@ main {
   width: 70%;
   font-size: 1.2rem;
   margin: auto;
-  color: #2D3561;
+  color: #555;
 }
 
 .skills {
-  background-color: #F7F4E9;
+  background-color: #f5f5f7;
   padding: 50px 0;
 }
 
@@ -142,15 +146,26 @@ main {
   width: 300px;
   margin: 20px;
   text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.symbol {
-  width: 100px;
-  height: 100px;
+.skill h3 {
+  color: #000;
+}
+
+.skill ul {
+  margin-top: 10px;
+}
+
+.skill ul li {
+  color: #555;
 }
 
 .contact-me {
-  background-color: #90F2FF;
+  background-color: #f5f5f7;
   padding: 50px 0;
   text-align: center;
 }
@@ -161,8 +176,8 @@ main {
 
 .button {
   display: inline-block;
-  background-color: #11CDD4;
-  color: #FFFFFF;
+  background-color: #0070c9;
+  color: #fff;
   font-size: 1rem;
   font-weight: 600;
   padding: 10px 20px;
@@ -172,16 +187,16 @@ main {
 }
 
 .button:hover {
-  background-color: #0AABB4;
+  background-color: #004d82;
 }
 
 .footer-link {
-  color: #000000;
+  color: #000;
   margin-right: 10px;
 }
 
 .bottom-container {
-  background-color: #F7F4E9;
+  background-color: #f5f5f7;
   padding: 50px 0;
   text-align: center;
 }
@@ -191,16 +206,16 @@ main {
 }
 
 .footer-link {
-  color: #000000;
+  color: #0070c9;
   margin-right: 10px;
 }
 
 .footer-link:hover {
-  color: #800000;
+  color: #004d82;
 }
 
 .copyrigh {
-  color: #EAF6F6;
+  color: #ccc;
   font-size: 0.75rem;
   margin-top: 30px;
 }
