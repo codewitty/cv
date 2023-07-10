@@ -1,59 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
   <title>Joshua Gomes</title>
   <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" href="./favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Amiri|Noto+Sans+TC|Rochester" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 
 <body>
-  <header>
-    <div class="top-container">
-      <div class="clouds">
-        <img class="cloud" src="cloud.png" alt="cloud-image">
-        <img class="cloud" src="cloud.png" alt="cloud-image">
-      </div>
-      <h1>I'm Joshua.</h1>
-      <h2>A Programmer.</h2>
-      <img class="ducky" src="MyRubberDucky.jpeg" alt="ducky-image">
+  <div class="top-container">
+    <img class="top-cloud" src="cloud.png" alt="cloud-image">
+    <h1> I'm Joshua.</h1>
+    <h2>A Programmer. </h2>
+    <img class="bottom-cloud" src="cloud.png" alt="cloud-image">
+    <img class="ducky" src="MyRubberDucky.jpeg" alt="mountain-image">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile_pic" src="35624908.png" alt="">
+      <h2>Hello.</h2>
+      <p class="intro">I started my professional career as an Officer in the Merchant Navy.
+        <br>After travelling all over the world and having
+        myriad experiences and adventures at sea, I wanted to explore my creative side.
+        <br>Computers have always fascinated me, and the problems being solved by programmers all over the world amazed me. <br>I decided to become a programmer and build
+        something that could one day change the world for the better.</p>
     </div>
-  </header>
+    <hr>
+  </div>
 
-  <main>
-    <section class="middle-container">
-      <div class="profile">
-        <img class="profile-pic" src="35624908.png" alt="profile-image">
-        <h2>Hello.</h2>
-        <p class="intro">I started my professional career as an Officer in the Merchant Navy.
-          <br>After traveling all over the world and having myriad experiences and adventures at sea, I wanted to explore
-          my creative side.
-          <br>Computers have always fascinated me, and the problems being solved by programmers all over the world
-          amazed me.
-          <br>I decided to become a programmer and build something that could one day change the world for the better.
-        </p>
-      </div>
-    </section>
-
-    <section class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <div class="skill">
-          <h3>Programming Languages</h3>
+  <div class="skills">
+    <h2>My Skills.</h2>
+    <div class="skill-row">
+      <!-- Programming Languages -->
+      <div class="card">
+        <div class="card-content">
+          <h3 class="card-title">Programming Languages</h3>
           <ul>
             <li>Golang</li>
             <li>Python</li>
             <li>C++</li>
-            <li>C</li>
             <li>JavaScript</li>
             <li>HTML5</li>
             <li>CSS3</li>
-            <li>MIPS Assembly</li>
           </ul>
         </div>
-        <div class="skill">
-          <h3>Technologies/Databases</h3>
+      </div>
+
+      <!-- Technologies/Databases -->
+      <div class="card">
+        <div class="card-content">
+          <h3 class="card-title">Technologies/Databases</h3>
           <ul>
             <li>GCP</li>
             <li>AWS</li>
@@ -61,41 +65,162 @@
             <li>Airflow</li>
             <li>SQL</li>
             <li>Pandas</li>
-            <li>Hive</li>
             <li>SciKit</li>
             <li>PostgreSQL</li>
             <li>Flask</li>
             <li>REST</li>
           </ul>
         </div>
-        <div class="skill">
-          <h3>Tools/Systems</h3>
+      </div>
+
+      <!-- Tools/Systems -->
+      <div class="card">
+        <div class="card-content">
+          <h3 class="card-title">Tools/Systems</h3>
           <ul>
             <li>Unix</li>
             <li>Terraform</li>
-            <li>Terragrunt</li>
             <li>Git</li>
             <li>Hadoop</li>
-            <li>Tableau</li>
             <li>Pytest</li>
-            <li>Bitbucket</li>
-            <li>Jira</li>
           </ul>
         </div>
       </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="bottom-container">
-      <p class="links">
-        <a class="footer-link" href="https://www.linkedin.com/in/codewitty/">LinkedIn</a>
-        <a class="footer-link" href="https://github.com/codewitty">Github</a>
-        <a class="footer-link" href="https://www.instagram.com/drawntowildplaces/">Instagram</a></p>
-      <p class="copyright">&copy; 2023 Joshua Gomes.</p>
     </div>
-  </footer>
+
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Internships</h3>
+      <p> Currently looking for interesting software projects to collaborate on.</p>
+      <div class="button-ctct"><a class="butn" href="ContactMe.html">CONTACT ME</a></div>
+      <div class="button-ctct"><a class="butn" href="Joshua_Gomes_Resume.pdf">RESUME</a></div>
+      <hr>
+    </div>
+
+  </div>
+
+
+  <div class="bottom-container">
+    <p class="links">
+      <a class="footer-link" href="https://www.linkedin.com/in/codewitty/">LinkedIn</a>
+      <a class="footer-link" href="https://github.com/codewitty">Github</a>
+      <a class="footer-link" href="https://www.instagram.com/drawntowildplaces/">Instagram</a></p>
+    <p class="copyright">© 2023 Joshua Gomes.</p>
+  </div>
 </body>
 
-</html>
+<style>
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
+.top-container {
+  background-color: #fff;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-cloud {
+  width: 150px;
+  height: 150px;
+}
+
+.bottom-cloud {
+  width: 100px;
+  height: 100px;
+}
+
+.ducky {
+  width: 200px;
+  height: 200px;
+}
+
+.middle-container {
+  background-color: #f5f5f5;
+  height: 500px;
+  padding: 20px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile_pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.intro {
+  margin-top: 20px;
+}
+
+.skills {
+  background-color: #fff;
+  height: 500px;
+  padding: 20px;
+}
+
+.skill-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+}
+
+.ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.li {
+  margin-bottom: 5px;
+}
+
+.butn {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bottom-container {
+  background-color: #fff;
+  height: 200px;
+  padding: 20px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link {
+  margin-left: 10px;
+}
+
+.copyright {
+  margin-top: 20px;
+}
+</style>
