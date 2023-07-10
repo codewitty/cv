@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Joshua Gomes</title>
   <link rel="stylesheet" href="./styles.css">
@@ -10,92 +11,80 @@
 
 <body>
   <header>
-    <div class="top-container">
-      <div class="clouds">
-        <img class="cloud" src="cloud.png" alt="cloud-image">
-        <img class="cloud" src="cloud.png" alt="cloud-image">
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo">
+          <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">About</a></li>
+            <li> <a href="#">Services</a></li>
+            <li> <a href="#">Portfolio</a></li>
+            <li> <a href="#">Contact</a></li>
+          </ul>
+
+        </nav>
+        <div class="header-text">
+          <p>Software Engineer</p>
+          <h1>Hi, I'm <span>Joshua</span></h1>
+        </div>
       </div>
-      <h1>I'm Joshua.</h1>
-      <h2>A Programmer.</h2>
-      <img class="ducky" src="MyRubberDucky.jpeg" alt="ducky-image">
     </div>
-  </header>
+    <!---- about ---->
+    <div id="about">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.jpg" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I started my professional career as an Officer in the Merchant Navy.
+            After travelling all over the world and having myriad experiences and adventures at sea, I wanted to explore my creative side.
+            Computers have always fascinated me, and the problems being solved by programmers all over the world amazed me.
+            I decided to become a programmer and build something that could one day change the world for the better.</p>
 
-  <main>
-    <section class="middle-container">
-      <div class="profile">
-        <img class="profile-pic" src="35624908.png" alt="profile-image">
-        <h2>Hello.</h2>
-        <p class="intro">I started my professional career as an Officer in the Merchant Navy.
-          <br>After traveling all over the world and having myriad experiences and adventures at sea, I wanted to explore
-          my creative side.
-          <br>Computers have always fascinated me, and the problems being solved by programmers all over the world
-          amazed me.
-          <br>I decided to become a programmer and build something that could one day change the world for the better.
-        </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Cloud Eng</span><br>Working on a Distributed Cloud Application</li>
+                <li><span>Web Development</span><br>Web app Development</li>
+                <li><span>App Development</span><br>Building iOS apps</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2019 - 2022</span><br>Software Engineer at Affinity Solutions, Inc.</li>
+                <li><span>2022 - present</span><br>Software Engineer at Codex Health, Inc.</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Bachelors in Computer Science</span><br>University of California, Irvine</li>
+              </ul>
+        </div>
+
       </div>
-    </section>
-
-    <section class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <div class="skill">
-          <h3>Programming Languages</h3>
-          <ul>
-            <li>Golang</li>
-            <li>Python</li>
-            <li>C++</li>
-            <li>C</li>
-            <li>JavaScript</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>MIPS Assembly</li>
-          </ul>
-        </div>
-        <div class="skill">
-          <h3>Technologies/Databases</h3>
-          <ul>
-            <li>GCP</li>
-            <li>AWS</li>
-            <li>Spark</li>
-            <li>Airflow</li>
-            <li>SQL</li>
-            <li>Pandas</li>
-            <li>Hive</li>
-            <li>SciKit</li>
-            <li>PostgreSQL</li>
-            <li>Flask</li>
-            <li>REST</li>
-          </ul>
-        </div>
-        <div class="skill">
-          <h3>Tools/Systems</h3>
-          <ul>
-            <li>Unix</li>
-            <li>Terraform</li>
-            <li>Terragrunt</li>
-            <li>Git</li>
-            <li>Hadoop</li>
-            <li>Tableau</li>
-            <li>Pytest</li>
-            <li>Bitbucket</li>
-            <li>Jira</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="bottom-container">
-      <p class="links">
-        <a class="footer-link" href="https://www.linkedin.com/in/codewitty/">LinkedIn</a>
-        <a class="footer-link" href="https://github.com/codewitty">Github</a>
-        <a class="footer-link" href="https://www.instagram.com/drawntowildplaces/">Instagram</a></p>
-      <p class="copyright">&copy; 2023 Joshua Gomes.</p>
     </div>
-  </footer>
-</body>
 
-</html>
+    <script>
 
+      var tablinks = document.getElementsByClassName("tab-links")
+      var tabcontents = document.getElementsByClassName("tab-contents")
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+          }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+          }
+      }
+
+    </script>
+
+  </body>
+  </html>
