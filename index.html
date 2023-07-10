@@ -2,224 +2,265 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Joshua Gomes</title>
-  <link rel="icon" href="./favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Amiri|Noto+Sans+TC|Rochester" rel="stylesheet">
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://kit.fontawesome.com/a90409c40b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div class="top-container">
-    <img class="top-cloud" src="cloud.png" alt="cloud-image">
-    <h1> I'm Joshua.</h1>
-    <h2>A Programmer. </h2>
-    <img class="bottom-cloud" src="cloud.png" alt="cloud-image">
-    <img class="ducky" src="MyRubberDucky.jpeg" alt="mountain-image">
-  </div>
-
-  <div class="middle-container">
-    <div class="profile">
-      <img class="profile_pic" src="35624908.png" alt="">
-      <h2>Hello.</h2>
-      <p class="intro">I started my professional career as an Officer in the Merchant Navy.
-        <br>After travelling all over the world and having
-        myriad experiences and adventures at sea, I wanted to explore my creative side.
-        <br>Computers have always fascinated me, and the problems being solved by programmers all over the world amazed me. <br>I decided to become a programmer and build
-        something that could one day change the world for the better.</p>
-    </div>
-    <hr>
-  </div>
-
-  <div class="skills">
-    <h2>My Skills.</h2>
-    <div class="skill-row">
-      <!-- Programming Languages -->
-      <div class="card">
-        <div class="card-content">
-          <h3 class="card-title">Programming Languages</h3>
-          <ul>
-            <li>Golang</li>
-            <li>Python</li>
-            <li>C++</li>
-            <li>JavaScript</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
+  <header>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!-- <a href="#"><i class="fa-sharp fa-sailboat"></i></i></a> -->
+          <ul id="sidemenu">
+            <li> <a href="#header">Home</a></li>
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#services">Services</a></li>
+            <li> <a href="#portfolio">Portfolio</a></li>
+            <li> <a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-x" onclick="closemenu()"></i>
           </ul>
-        </div>
-      </div>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
 
-      <!-- Technologies/Databases -->
-      <div class="card">
-        <div class="card-content">
-          <h3 class="card-title">Technologies/Databases</h3>
-          <ul>
-            <li>GCP</li>
-            <li>AWS</li>
-            <li>Spark</li>
-            <li>Airflow</li>
-            <li>SQL</li>
-            <li>Pandas</li>
-            <li>SciKit</li>
-            <li>PostgreSQL</li>
-            <li>Flask</li>
-            <li>REST</li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Tools/Systems -->
-      <div class="card">
-        <div class="card-content">
-          <h3 class="card-title">Tools/Systems</h3>
-          <ul>
-            <li>Unix</li>
-            <li>Terraform</li>
-            <li>Git</li>
-            <li>Hadoop</li>
-            <li>Pytest</li>
-          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Software Engineer</p>
+          <h1>Hi, I'm <span>Joshua</span></h1>
         </div>
       </div>
     </div>
+    <!---- about ---->
+    <div id="about">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.png" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I started my professional career as an Officer in the Merchant Navy.
+            After travelling all over the world and having myriad experiences and adventures at sea, I wanted to explore my creative side.
+            Computers have always fascinated me, and the problems being solved by programmers all over the world amazed me.
+            I decided to become a programmer and build something that could one day change the world for the better.</p>
 
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Internships</h3>
-      <p> Currently looking for interesting software projects to collaborate on.</p>
-      <div class="button-ctct"><a class="butn" href="ContactMe.html">CONTACT ME</a></div>
-      <div class="button-ctct"><a class="butn" href="Joshua_Gomes_Resume.pdf">RESUME</a></div>
-      <hr>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onmouseover="opentab('skills')">Skills</p>
+                <p class="tab-links" onmouseover="opentab('experience')">Experience</p>
+                <p class="tab-links" onmouseover="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Cloud Eng</span><br>Working on a Distributed Cloud Application</li>
+                <li><span>Web Development</span><br>Web app Development</li>
+                <li><span>App Development</span><br>Building iOS apps</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2019 - 2022</span><br>Software Engineer at Affinity Solutions, Inc.</li>
+                <li><span>2022 - present</span><br>Software Engineer at Codex Health, Inc.</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Bachelors in Computer Science</span><br>University of California, Irvine</li>
+              </ul>
+        </div>
+
+      </div>
+    </div>
+    <!-- --------services--------------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title"> My Services</h1>
+        <div class="services-list">
+          <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>Web Design</h2>
+              <p> Create a responsive landing web page, and provide SEO for your business</p>
+              <a href="#">learn more</a>
+          </div>
+          <div>
+              <i class="fa-sharp fa-solid fa-gears"></i>
+              <h2>Microservices Design</h2>
+              <p> Design a microservice application to eliminate downtime and get your startup up and running fast</p> 
+              <a href="#">learn more</a>
+          </div>
+          <div>
+              <i class="fa-brands fa-app-store-ios"></i>
+              <h2>App Design</h2>
+              <p> Design an iOS application to get your startup up and running, so you can focus on building your business</p> 
+              <a href="#">learn more</a>
+          </div>
+      </div>
     </div>
 
-  </div>
+    <!-- --------------portfolio------------ -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1-1.png" alt="">
+            <div class="layer">
+              <h3>Youtube Search Engine</h3>
+              <p>Search youtube for videos based on desired query and return a list of thumbnails with easy access to YouTube. You also have the option to download the metadata for each video as a CSV file.</p>
+              <a href="#"><i class="fa-sharp fa-solid fa-anchor"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="">
+            <div class="layer">
+              <h3>Music Search App</h3>
+              <p>Search for music you might like and get links to popular aggregators like Spotify, Amazon Music etc.</p>
+              <a href="#"><i class="fa-sharp fa-solid fa-anchor"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="">
+            <div class="layer">
+              <h3>Random App </h3>
+              <p>Random app for demonstration purposes.</p>
+              <a href="#"><i class="fa-sharp fa-solid fa-anchor"></i></a>
+            </div>
+          </div>
+        </div>
+          <a href="#" class="btn"> See More </a>
+      </div>
+    </div>
+
+    <!-- ------contact------ -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> gomesjoshua42@gmail.com</p>
+            <p><i class="fa-solid fa-phone-volume"></i> 702-721-8694</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/codewitty/"><i class="fa-brands fa-linkedin"></i></i></a>
+              <a href="https://github.com/codewitty"><i class="fa-brands fa-square-github"></i></a>
+              <a href="https://www.instagram.com/drawntowildplaces/"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="https://twitter.com/codewitty_"><i class="fa-brands fa-square-twitter"></i></a>
+            </div>
+              <a href="images/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn2">View Resume</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">"Submit"</button>
+            </form>
+            <span id="msg"></span>
+
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright 2023 @ CloudRest. Built Strong <i class="fa-solid fa-anchor-lock"></i> </p>
+      </div>
+
+    </div>
 
 
-  <div class="bottom-container">
-    <p class="links">
-      <a class="footer-link" href="https://www.linkedin.com/in/codewitty/">LinkedIn</a>
-      <a class="footer-link" href="https://github.com/codewitty">Github</a>
-      <a class="footer-link" href="https://www.instagram.com/drawntowildplaces/">Instagram</a></p>
-    <p class="copyright">© 2023 Joshua Gomes.</p>
-  </div>
-</body>
 
-<style>
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-}
 
-.top-container {
-  background-color: #fff;
-  height: 400px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+    <script>
 
-.top-cloud {
-  width: 150px;
-  height: 150px;
-}
+      var tablinks = document.getElementsByClassName("tab-links")
+      var tabcontents = document.getElementsByClassName("tab-contents")
 
-.bottom-cloud {
-  width: 100px;
-  height: 100px;
-}
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+          }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+          }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
 
-.ducky {
-  width: 200px;
-  height: 200px;
-}
+    </script>
 
-.middle-container {
-  background-color: #f5f5f5;
-  height: 500px;
-  padding: 20px;
-}
+  </body>
+  </html>
 
-.profile {
-  text-align: center;
-}
+        </div>
+      </div>
 
-.profile_pic {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-}
 
-.intro {
-  margin-top: 20px;
-}
+    </div>
 
-.skills {
-  background-color: #fff;
-  height: 500px;
-  padding: 20px;
-}
 
-.skill-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.card {
-  width: 200px;
-  height: 300px;
-  border: 1px solid #ccc;
-  margin: 10px;
-  padding: 10px;
-}
 
-.card-content {
-  padding: 10px;
-}
+    <script>
 
-.card-title {
-  font-size: 18px;
-}
+      var tablinks = document.getElementsByClassName("tab-links")
+      var tabcontents = document.getElementsByClassName("tab-contents")
 
-.ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+          }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+          }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
 
-.li {
-  margin-bottom: 5px;
-}
+    </script>
 
-.butn {
-  background-color: #000;
-  color: #fff;
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
+    <script>
+      
+      var sidemenu = document.getElementById("sidemenu");
 
-.bottom-container {
-  background-color: #fff;
-  height: 200px;
-  padding: 20px;
-}
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
 
-.links {
-  display: flex;
-  justify-content: center;
-}
+      function closemenu(){
+        sidemenu.style.right = "-200";
+      }
 
-.footer-link {
-  margin-left: 10px;
-}
+    </script>
 
-.copyright {
-  margin-top: 20px;
-}
-</style>
+    <!-- <form name="submit-to-google-sheet">
+      <input name="email" type="email" placeholder="Email" required>
+      <button type="submit">Send</button>
+    </form> -->
+    
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzthF-QiQ5C6zD7FVc3xBDquRgm38gs88xor0AeVqcitqKOb_33MpwOfG5NT7KiYp8j/exec'
+      const form = document.forms['submit-to-google-sheet']
+
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+      e.preventDefault();
+      fetch(scriptURL, {
+        method: 'POST',
+        body: new FormData(form)
+      }).then(response => {
+            msg.innerHTML = 'Form submitted successfully!';
+            setTimeout(() => {
+              msg.innerHTML = '';
+            }, 3000);
+            form.reset();
+          })
+        .catch(error => console.error('Error!', error.message));
+    });
+
+    </script>
+
+  </body>
+  </html>
