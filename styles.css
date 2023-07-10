@@ -232,3 +232,38 @@ main {
   }
 }
 
+/* Rest of the CSS styles */
+
+.carousel {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-content {
+  display: flex;
+  width: 100%;
+  animation: carouselAnimation 10s linear infinite;
+}
+
+@keyframes carouselAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.skill .carousel {
+  height: 200px; /* Adjust as needed */
+}
+
+.skill .carousel-content {
+  width: 300%; /* Adjust as needed */
+}
+
+.skill .carousel-content p {
+  flex: 0 0 25%; /* Adjust as needed */
+  text-align: center;
+}
+
