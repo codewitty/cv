@@ -11,7 +11,7 @@ html{
 
 body{
     background: #080808;
-    color: #fff;
+    color: #080808;
 }
 
 #header{
@@ -33,12 +33,6 @@ nav{
   flex-wrap: wrap;
 }
 
-/* nav i{
-  font-size: 50px;
-  margin-top: 20px;
-  color: #fff;
-  } */
-
 .logo{
   width: 140px;
   height: 200px;
@@ -51,7 +45,7 @@ nav ul li {
   }
 
  nav ul li a{
-  color: white;
+  color: #080808;
   text-decoration: none;
   font-size: 18px;
   position: relative
@@ -83,7 +77,7 @@ nav ul li {
   }
 
   .header-text h1 span{
-    color:#ff004f
+    color:#ff3d00;
   }
 
 /*----about----*/
@@ -152,8 +146,8 @@ nav ul li {
       }
 
       .tab-contents ul li span{
-        color: #b54769;
-        font-size: 14px;
+        color: #833b52;
+        font-size: 16px;
 
       }
 
@@ -207,7 +201,7 @@ nav ul li {
       }
 
       .services-list div:hover{
-        background: #ff004f;
+        background: #94113a;
         transform: translateY(-10px);
       }
 
@@ -393,11 +387,6 @@ nav ul li {
           font-size: 16px;
         }
 
-        nav .fa-solid{
-          display: block;
-          font-size: 25px;
-        }
-
         nav ul{
           background: #ff004f;
           position: fixed;
@@ -416,11 +405,21 @@ nav ul li {
 
         }
 
+        nav .fa-solid{
+          position: absolute;
+          display: block;
+          top: 25px;
+          right: 25px;
+          cursor: pointer;
+          color:#080808
+        }
+
         nav ul .fa-solid{
           position: absolute;
           top: 25px;
           left: 25px;
           cursor: pointer;
+          color:#080808
         }
 
         .sub-title{
