@@ -11,7 +11,7 @@ html{
 
 body{
     background: #080808;
-    color: #080808;
+    color: #ababab;
 }
 
 #header{
@@ -20,6 +20,7 @@ body{
   background-image: url(images/Rainier.JPG);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .container{
@@ -201,7 +202,7 @@ nav ul li {
       }
 
       .services-list div:hover{
-        background: #94113a;
+        background: #b0063c;
         transform: translateY(-10px);
       }
 
@@ -231,14 +232,6 @@ nav ul li {
         transition: transform 0.5s;
       }
 
-      .work:hover img{
-        transform: scale(1.1);
-      }
-
-      .work:hover layer{
-        height: 100%
-      }
-
       .layer{
         width: 100%;
         height: 0;
@@ -255,6 +248,7 @@ nav ul li {
         padding: 0 40px;
         text-align: center;
         font-size: 14px;
+        transition: height 0.5s;
       }
 
       .layer h3{
@@ -273,6 +267,14 @@ nav ul li {
         height: 60px;
         border-radius: 50%;
         text-align: center;
+      }
+
+      .work:hover img{
+        transform: scale(1.1);
+      }
+
+      .work:hover .layer{
+        height: 100%
       }
 
       .btn{
