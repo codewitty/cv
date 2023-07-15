@@ -379,9 +379,18 @@ nav ul li {
         display: none;
       }
 
+      /*
+      @media (hover: none) {
+        .header {
+          background-attachment: initial;
+        }
+     }
+     */
+
       @media only screen and (max-width: 600px){
         .header{
-          background-image: url(images/phone-background.png);
+          background-image: url(images/Rainier.JPG);
+          /* background-attachment: unset;  */
         }
 
         .header-text{
@@ -460,41 +469,3 @@ nav ul li {
         margin-top: -40px;
         display: block;
       }
-
-
-
-/* Rest of the CSS styles */
-
-.carousel {
-  overflow: hidden;
-  position: relative;
-}
-
-.carousel-content {
-  display: flex;
-  width: 100%;
-  animation: carouselAnimation 10s linear infinite;
-}
-
-@keyframes carouselAnimation {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-.skill .carousel {
-  height: 200px; /* Adjust as needed */
-}
-
-.skill .carousel-content {
-  width: 300%; /* Adjust as needed */
-}
-
-.skill .carousel-content p {
-  flex: 0 0 25%; /* Adjust as needed */
-  text-align: center;
-}
-
