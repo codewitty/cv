@@ -379,13 +379,11 @@ nav ul li {
         display: none;
       }
 
-      /*
       @media (hover: none) {
         .header {
           background-attachment: initial;
         }
      }
-     */
 
       @media only screen and (max-width: 600px){
         .header{
