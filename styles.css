@@ -21,9 +21,11 @@ body{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  /*
   font-size: 20px;
   color: #c48402;
   font-weight: bold;
+  */
 }
 
 .container{
@@ -82,7 +84,7 @@ nav ul li {
 
   .header-text h1 span{
     color:#ff3d00;
-    font-size: 70px;
+    /*font-size: 70px;*/
   }
 
 /*----about----*/
@@ -112,9 +114,11 @@ nav ul li {
       margin-bottom: 100px;
     }
 
+    /*
     .about-col-2 p {
       font-size: 18px;
     }
+    */
 
     .subtitle{
       font-size: 60px;
@@ -261,10 +265,12 @@ nav ul li {
         transition: height 0.5s;
       }
 
+      /*
       .layer h3{
         font-weight: 800;
         margin-bottom: 20px;
       }
+      */
 
       .layer a{
         margin-top: 20px;
@@ -441,10 +447,6 @@ nav ul li {
           color:#080808
         }
 
-        .sub-title{
-          font-size: 400px;
-        }
-
         .about-col-1, .about-col-2{
           flex-basis: 100%;
         }
@@ -454,7 +456,7 @@ nav ul li {
         }
 
         .about-col-2{
-          font-size:  200px
+          font-size:  14px
         }
 
         .tab-links{
@@ -476,3 +478,5 @@ nav ul li {
         margin-top: -40px;
         display: block;
       }
+
+    }
