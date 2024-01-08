@@ -397,8 +397,11 @@ nav ul li {
 
       @media only screen and (max-width: 600px){
         .header{
+          /*
           background-image: url(images/Rainier.JPG);
-          /* background-attachment: unset;  */
+          background-attachment: unset;  
+          */
+          background: #ffffff;
         }
 
         .header-text{
