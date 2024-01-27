@@ -1,3 +1,3 @@
-# Web-Dev
+# Portfolio
 
-HTML and CSS side quests.
+Responsive Website to showcase personal projects.
